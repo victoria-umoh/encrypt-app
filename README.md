@@ -3,22 +3,22 @@
 ## Answer can be found in Http/Controllers/EncrptionController.php   | Services/EncryptionService.php  | routes/web.php
 
 
-Question 2 : 1 hour
-Develop and Online Registration Form  that allows users to submit the following:
-- Name
-- Phone number ( must be 11 digits)
-- Email ( must be a valid email format, accepting only gmail and yahoo mails)
-The  form should be submitted into a database and after submission the user should get an email notification confirming registration
-## Answer can be found in Http/Controllers/
+# Question 2 : 1 hour
+## Develop and Online Registration Form  that allows users to submit the following:
+** Name
+** Phone number ( must be 11 digits)
+** Email ( must be a valid email format, accepting only gmail and yahoo mails)
+** The  form should be submitted into a database and after submission the user should get an email notification confirming registration
+## Answer can be found in Http/Controllers/RegistrationController | Model/User.php
 
 
 
 
-Question 3: 30 mins
-Write an API that receives the following parameters:
-phone_number
-mobile_network (eg: mtn,airtel,9mobile,glo)
-Message
-ref_code (must be unique)
+# Question 3: 30 mins
+## Write an API that receives the following parameters:
+** phone_number
+** mobile_network (eg: mtn,airtel,9mobile,glo)
+** Message
+** ref_code (must be unique)
 
-## Answer can be found in Http/Controllers/
+## Answer can be found in Http/Controllers/Reg | routes/api | Models/Reg
